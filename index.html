@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Boxes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="title">YAY! It’s BOGO</div>
+  <div class="box-wrapper">
+
+    <!-- First Box -->
+    <label class="box" data-index="1">
+      <div class="radio-wrapper">
+        <input type="radio" name="box-select" />
+      </div>
+      <div class="box-content">
+        <div class="box-header">
+          <div class="box-header-left">
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <h3>1 Unit</h3>
+              <span class="discount">10% Off</span>
+            
+            </div>
+            <span class="subtitle">Standard Price</span>
+          </div>
+          <div style="text-align: right;" class="box-header-left">
+             <div style="display: flex; align-items: center; gap: 8px;">
+              <span class="price">$10.00</span>
+            </div>
+            <span class="subtitle original-price">$24.00 USD</span>
+          </div>
+        </div>
+      <div class="box-body">
+  <div class="options">
+    <span class="span1">Size</span>
+    <span class="span1">Color</span>
+  </div>
+  <div class="options">
+    <span>#1</span>
+    <select>
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+    </select>
+    <select>
+      <option>Black</option>
+      <option>White</option>
+      <option>Blue</option>
+    </select>
+  </div>
+  <div class="options">
+    <span>#2</span>
+    <select>
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+    </select>
+    <select>
+      <option>Black</option>
+      <option>White</option>
+      <option>Blue</option>
+    </select>
+  </div>
+</div>
+
+      </div>
+    </label>
+<!-- second box -->
+    <label class="box active" data-index="2">
+      <div class="radio-wrapper">
+        <input type="radio" name="box-select" checked />
+      </div>
+      <div class="box-content">
+        <div class="badge">MOST POPULAR</div>
+        <div class="box-header">
+          <div class="box-header-left">
+            <div style="display: flex; align-items: center; gap: 8px;">
+               <h3>2 Unit</h3>
+              <span class="discount">20% Off</span>
+             
+            </div>
+          </div>
+         <div style="text-align: right;" class="box-header-left">
+             <div style="display: flex; align-items: center; gap: 8px;">
+              <span class="price">$18.00</span>
+            </div>
+            <span class="subtitle original-price">$24.00 USD</span>
+          </div>
+        </div>
+          <div class="box-body">
+  <div class="options">
+    <span class="span1">Size</span>
+    <span class="span1">Color</span>
+  </div>
+  <div class="options">
+    <span>#1</span>
+    <select>
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+    </select>
+    <select>
+      <option>Black</option>
+      <option>White</option>
+      <option>Blue</option>
+    </select>
+  </div>
+  <div class="options">
+    <span>#2</span>
+    <select>
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+    </select>
+    <select>
+      <option>Black</option>
+      <option>White</option>
+      <option>Blue</option>
+    </select>
+  </div>
+</div>
+      </div>
+    </label>
+<!-- Third box -->
+    <label class="box" data-index="1">
+      <div class="radio-wrapper">
+        <input type="radio" name="box-select" />
+      </div>
+      <div class="box-content">
+        <div class="box-header">
+          <div class="box-header-left">
+            <div style="display: flex; align-items: center; gap: 8px;">
+               <h3>3 Unit</h3>
+              <span class="discount">30% Off</span>
+             
+            </div>
+          </div>
+          <div style="text-align: right;" class="box-header-left">
+             <div style="display: flex; align-items: center; gap: 8px;">
+              <span class="price">$24.00</span>
+            </div>
+            <span class="subtitle original-price">$24.00 USD</span>
+          </div>
+        </div>
+         <div class="box-body">
+  <div class="options">
+    <span class="span1">Size</span>
+    <span class="span1">Color</span>
+  </div>
+  <div class="options">
+    <span>#1</span>
+    <select>
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+    </select>
+    <select>
+      <option>Black</option>
+      <option>White</option>
+      <option>Blue</option>
+    </select>
+  </div>
+  <div class="options">
+    <span>#2</span>
+    <select>
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+    </select>
+    <select>
+      <option>Black</option>
+      <option>White</option>
+      <option>Blue</option>
+    </select>
+  </div>
+</div>
+      </div>
+    </label>
+  </div>
+
+
+<div class="checkout">
+  <div class="summary">
+    <p class="free">Free Delivery</p>
+    <p class="total">Total: $18.00 USD</p>
+  </div>
+
+  <button class="add-to-cart">+ Add to Cart</button>
+
+  <p class="footer-note">@ Powered by Pumper</p>
+</div>
+
+ <script src="script.js"></script>
+</body>
+</html>
